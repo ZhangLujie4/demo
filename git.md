@@ -11,3 +11,4 @@
 + git diff
 + git log --pretty=oneline
 + git reset
+jashsdhahdgahds
