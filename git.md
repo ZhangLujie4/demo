@@ -9,3 +9,4 @@
 + git log
 + git show-branch
 + git diff
++ git log --pretty=oneline
