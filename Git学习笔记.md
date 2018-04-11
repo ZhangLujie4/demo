@@ -79,3 +79,4 @@ Host my.github.com
 
 然后如果要用hexo把_config.yml的git@github.com 改成 git@my.github.com
 
+如果要在git时忽略某个文件,例如node_modules文件夹,则先用`touch .gitignore`,然后在创建的文件里写上node_modules/
