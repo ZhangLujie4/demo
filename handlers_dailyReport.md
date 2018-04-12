@@ -173,14 +173,11 @@ parallelTasks = [getTotal, accessRollSearcher];
 async.parallel(parallelTasks, function (err, result) {
     var count;
     var response = {};
-
     if (err) {
         return next(err);
     }
-
     count = result[0] || 0;
     var dailyReportIds = result[1].objectID();
-
     ......
 });
 ```
