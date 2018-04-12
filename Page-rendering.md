@@ -76,7 +76,7 @@ categories: MEAN
 
 **(view/:contentType/TopBarView)**
 
-```
+```javascript
 var TopBarView = BaseView.extend({
     el         : '#top-bar',
     contentType: CONSTANTS.WORKPOINT,
