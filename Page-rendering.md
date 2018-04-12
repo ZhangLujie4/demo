@@ -33,7 +33,7 @@ categories: MEAN
 
 **画的比较烂**╮(~﹏~)╭
 
-![pending Rendering](/lct.png)
+![pending Rendering](https://github.com/ZhangLujie4/demo/blob/master/lct.png)
 
 ## 调用顺序
 
