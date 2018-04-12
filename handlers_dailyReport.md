@@ -67,7 +67,7 @@ async.waterfall(waterfallTasks, function (err, result) {
     waterfallCb(null, resultArray);
 });
 ```
-## dailyReport.js（[具体代码]()）
+## dailyReport.js（[具体代码](https://github.com/ZhangLujie4/byerp/blob/master/handlers/dailyReport.js)）
 **引入accessRollHelper模块**
 ```javascript
 var accessRoll = require('../helpers/accessRollHelper')(models);
