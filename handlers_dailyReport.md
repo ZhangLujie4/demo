@@ -1,4 +1,4 @@
-## accessRollHelper.js
+## accessRollHelper.js([具体代码](https://github.com/ZhangLujie4/byerp/blob/master/helpers/accessRollHelper.js))
 这是修改之后的departmentSearcher和contentIdsSearcher
 ```javascript
 departmentSearcher = function (waterfallCallback) {
