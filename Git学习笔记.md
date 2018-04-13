@@ -28,7 +28,7 @@ github相关
 
 + ssh-keygen -t rsa -C "xxxxxxx@example.com"(> ~/.ssh/id_rsa.pub)
 
-
++ git remote rm origin
 + git remote add origin git@github.com:ZhangLujie4/demo.git
 + git push -u origin master(如果push不上去直接把-u改成-f， 强制上传;第一次加-u，之后就不用了)
 + 通过`ssh`支持的原生`git`协议速度最快
