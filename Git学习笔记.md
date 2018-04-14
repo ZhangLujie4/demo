@@ -84,7 +84,7 @@ Host my.github.com
 还有一些操作,看git提示或者github提示自然就明白了，有友好的提示
 
 part **patch的应用**
-
+```
 1. 两个commit间的修改（包含两个commit）
 git format-patch <r1>..<r2>
 
@@ -93,3 +93,4 @@ git format-patch -1 <r1>
 
 3. 从某commit以来的修改（不包含该commit）
 git format-patch <r1>
+```
