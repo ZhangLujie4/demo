@@ -82,3 +82,14 @@ Host my.github.com
 如果要在git时忽略某个文件,例如node_modules文件夹,则先用`touch .gitignore`,然后在创建的文件里写上node_modules/
 
 还有一些操作,看git提示或者github提示自然就明白了，有友好的提示
+
+part **patch的应用**
+
+1. 两个commit间的修改（包含两个commit）
+git format-patch <r1>..<r2>
+
+2. 单个commit
+git format-patch -1 <r1>
+
+3. 从某commit以来的修改（不包含该commit）
+git format-patch <r1>
